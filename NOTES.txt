@@ -1,0 +1,2 @@
+﻿Upload các folder trong folder server-side lên một host hỗ trợ PHP và MySQL.
+Thay thế tất cả các host http://thinhhoang.pe.hu bằng tên host của bạn trong dự án Android.
