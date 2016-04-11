@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_info"
+        android:title="Hướng dẫn"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_help_outline_white_24dp">
+    </item>
+
+    <!--<item android:id="@+id/menu_erase_exams"
+        android:title="Xóa hết nhắc nhở"
+        app:showAsAction="never"/>-->
+
+    <!--<item android:id="@+id/menu_launch_settings"
+        android:title="Cài đặt hiển thị"
+        app:showAsAction="never"/>-->
+
+</menu>

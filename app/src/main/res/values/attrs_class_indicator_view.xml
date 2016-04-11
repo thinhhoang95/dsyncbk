@@ -1,0 +1,9 @@
+<resources>
+    <declare-styleable name="ClassIndicatorView">
+        <attr name="numberOfClasses" format="integer" />
+        <attr name="foregroundColor" format="color" />
+        <attr name="squareSizeWidth" format="float" />
+        <attr name="squareSizeHeight" format="float"/>
+        <attr name="gap" format="float" />
+    </declare-styleable>
+</resources>

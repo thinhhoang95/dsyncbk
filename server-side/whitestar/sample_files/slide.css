@@ -1,0 +1,219 @@
+.no-margin-left {
+    margin-left: 0 !important;
+}
+.edu-slider-block {
+    clear: both;
+    max-width: 1176px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.edu-slider-block .slider-preview {
+    height: 442px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slider-preview ul {
+	margin-bottom:0px;
+}
+
+ul.slider-items {
+    padding-left: 0px;
+}
+ul.slider {
+    float: left;
+    padding-left: 2px;
+    width: 5000px;
+}
+ul.slider li {
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+    float: left;
+    height: 210px;
+    margin: 0 18px 18px 0;
+    width: auto;
+}
+ul.slider li.big-item {
+    width: 378px;
+}
+ul.slider li.small-item {
+    width: 178px;
+}
+ul.slider li.bg-blue {
+    background: url("../images/bg-blue-item-hover.png") repeat-x scroll left bottom #0578D4;
+}
+ul.slider li.bg-blue:hover {
+    background: url("../images/bg-blue-item.png") repeat-x scroll left bottom #0795DF;
+}
+ul.slider li.bg-red {
+  background: url("../images/bg-red-item-hover.png") repeat-x scroll left bottom #D9532D;
+}
+ul.slider li.bg-red:hover {
+    background: url("../images/bg-red-item.png") repeat-x scroll left bottom #D9532D;
+}
+ul.slider li.bg-purple {
+  background: url("../images/bg-purple-item-hover.png") repeat-x scroll left bottom #840091;
+}
+ul.slider li.bg-purple:hover {
+    background: url("../images/bg-purple-item.png") repeat-x scroll left bottom #A400AE;
+}
+ul.slider li.bg-pink {
+  background: url("../images/bg-pink-item-hover.png") repeat-x scroll left bottom #C31162;
+}
+ul.slider li.bg-pink:hover {
+    background: url("../images/bg-pink-item.png") repeat-x scroll left bottom #D2197E;
+}
+ul.slider li.bg-purple-dark {
+  background: url("../images/bg-purple-dark-item-hover.png") repeat-x scroll left bottom #492EA5;
+}
+ul.slider li.bg-purple-dark:hover {
+    background: url("../images/bg-purple-dark-item.png") repeat-x scroll left bottom #5838B3;
+}
+ul.slider li.bg-gray-light {
+    background: url(../images/bg-light-gray-item-hover.jpg) repeat-x scroll left bottom #E2E0E1;
+}
+ul.slider li.bg-gray-light:hover {
+    background: url(../images/bg-light-gray-item.jpg) repeat-x scroll left bottom #E2E0E1;
+}
+ul.slider li .item-content {
+    color: #FFFFFF;
+    display: block;
+    padding: 20px 15px 15px;
+}
+ul.slider li .no-description {
+    padding-top: 50px;
+}
+ul.slider li .item-content .icon-item {
+    background: url("../images/icons.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+    height: 70px;
+    width: 100%;
+}
+ul.slider li .item-content .alert {
+    background-position: center top;
+}
+ul.slider li .item-content .student {
+    background-position: center -103px;
+}
+ul.slider li .item-content .teacher {
+    background-position: center -220px;
+}
+ul.slider li .item-content .subject {
+    background-position: center -548px;
+}
+ul.slider li .item-content .document {
+    background-position: center -430px;
+}
+ul.slider li .item-content .graduation {
+    background-position: center -318px;
+}
+ul.slider li .item-content .forum {
+    background-position: center -650px;
+}
+ul.slider li .item-content .bkel {
+    background-position: center -935px;
+}
+ul.slider li .item-content .timetable {
+    background-position: center -1043px;
+}
+ul.slider li .item-content .chart {
+    background-position: center -760px;
+}
+ul.slider li .item-content .star {
+    background-position: center -1160px;
+}
+ul.slider li .item-content .register-project {
+    background-position: center -845px;
+}
+ul.slider li .item-content h3 {
+    clear: both;
+    font-size: 24px;
+    padding: 5px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+ul.slider li .item-content .description {
+    background: url("../images/arrow-icon.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    clear: both;
+    display: block;
+    font-size: 14px;
+    padding-left: 20px;
+    text-align: left;
+}
+ul.slider-line-2 li.small-item:nth-child(1), ul.slider-line-2 li.small-item:nth-child(2) {
+    margin-right: 19px;
+}
+ul.control-slider {
+    border: 0px solid #FFFFFF;
+    bottom: 110px;
+    position: absolute;
+    right: 0;
+    width: 178px;
+}
+.stutent-block ul.control-slider {
+    bottom: 15px;
+    height: 265px;
+    right: 0;
+    width: 378px;
+}
+ul.control-slider li {
+    float: left;
+    position: relative;
+    text-align: center;
+    width: 50%;
+}
+.stutent-block ul.control-slider li {
+    float: left;
+    height: 265px;
+    position: relative;
+    text-align: center;
+    width: 50%;
+}
+ul.control-slider li.full {
+    width: 100%;
+}
+ul.control-slider li.hide {
+    display: none;
+}
+ul.control-slider li a {
+    background: url("../images/control-slide.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    bottom: 0;
+    cursor: pointer;
+    display: block;
+    height: 50px;
+    margin: auto;
+    position: absolute;
+    top: -222px;
+    vertical-align: middle;
+    width: 50px;
+}
+ul.control-slider li a.prev {
+    background-position: -126px -110px;
+    right: 5px;
+}
+ul.control-slider li a.next {
+    background-position: 0 -110px;
+    left: 5px;
+}
+ul.control-slider li a.prev:hover {
+    background-position: -126px 0;
+}
+ul.control-slider li a.next:hover {
+    background-position: 0 0;
+}
+ul.control-slider li.full a {
+    left: 0;
+    right: 0;
+}
+.stutent-block ul.control-slider li a.prev {
+    right: 15px;
+}
+.stutent-block ul.control-slider li a.prev:hover {
+    right: 15px;
+}
+.stutent-block ul.control-slider li a.next {
+    left: 15px;
+}
+.stutent-block ul.control-slider li a.next:hover {
+    left: 15px;
+}

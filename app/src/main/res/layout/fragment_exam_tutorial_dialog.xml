@@ -1,0 +1,121 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hu.pe.thinhhoang.aaosync.ExamTutorialDialogFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Lịch thi mở, tự do và cập nhật"
+            android:id="@+id/textView41"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Kể từ bây giờ, bạn có thể chia sẻ lịch thi cho bất cứ ai cùng tham gia lớp học với bạn."
+            android:id="@+id/textView42"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Lịch thi do người dùng đóng góp có vạch màu xanh dương phía trước. Nhấp vào để xem thêm các lựa chọn khác."
+            android:id="@+id/textView43"
+            android:layout_marginTop="8dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView8"
+            android:src="@drawable/blue_badge_exam"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Lịch thi do PĐT cung cấp có vạch màu xanh lá và không thể thay đổi được."
+            android:id="@+id/textView44"
+            android:layout_marginTop="8dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView9"
+            android:src="@drawable/green_badge_exam"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Bạn cũng có thể tạo thêm một lịch thi"
+            android:id="@+id/textView45"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Bấm vào biểu tượng cây viết ở góc phải bên dưới màn hình để tạo. Lịch thi có số lượt bình chọn cao nhất sẽ tự động được hiển thị."
+            android:id="@+id/textView46" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView10"
+            android:src="@drawable/upvote_exam"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Con số bên phải dấu + hiển thị số phiếu bình chọn của lịch thi đó. Khi bạn bình chọn cho lịch thi nào, lịch thi đó sẽ mặc định trở thành lịch thi của bạn nếu bật tính năng này trong Cài đặt."
+            android:id="@+id/textView47"
+            android:layout_marginTop="8dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView11"
+            android:src="@drawable/exam_configuration"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Điều tương tự cũng đúng với lịch thi do bạn tự tạo ra. Mặc định các lựa chọn này là tắt."
+            android:id="@+id/textView48"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

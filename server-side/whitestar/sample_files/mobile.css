@@ -1,0 +1,400 @@
+@media screen and (min-width: 200px) and (max-width: 2000px) {
+	.medium_logo {
+		display:none;
+	}
+	
+	.mobile_logo {
+		display:none;
+	}
+	
+	.mobile_menu {
+		display:none !important;
+	}
+}
+
+@media screen and (min-width: 200px) and (max-width: 1200px) {
+	.img-box-items .img-box-item a {
+	  width: 301px;
+	}
+	
+	.xemthem {
+		display:none;
+	}
+	.selectbox-item-block .item-slected{
+		background: url("../images/arrow-icon.png") no-repeat scroll 250px -53px #E2E1E1;
+		width: 302px;	
+	}
+	.selectbox-item-block .item-list {
+		 width:301px;
+		 right:14px;
+	}
+	.padding .selectbox-item-block {
+		padding-right:14px;
+	}
+	
+	.selectbox-item-block-auto .item-slected{
+		width: 302px;	
+	}
+	.selectbox-item-block-auto .item-list {
+		 width:301px;
+		 right:12px;
+	}
+	.padding .selectbox-item-block-auto {
+		padding-right:12px;
+	}
+	
+}
+
+@media screen and (min-width: 713px) and (max-width: 990px) {
+	ul.slider li {
+		width:100px !important;
+		height:100px !important;
+	}
+	
+	.slider-mobile {
+		display:none;
+	}
+	
+	.control-slider {
+		display:none !important;
+	}
+	
+	.mshare, .mlanguages {
+	  color: #FFFFFF;
+	  font-size: 18px;
+	  height: 50px;
+	  line-height: 50px;
+	  padding: 0 15px;
+	  text-transform: uppercase;
+	}
+
+    .mlanguages span {
+	  cursor: pointer;
+	  display: block;
+	  float: right;
+	  font-size: 0;
+	  height: 20px;
+	  width: 24px;
+	}
+	
+    .mlanguages span.vietnamese{
+        background-position: 0 0;
+        margin-left: 10px;
+    }
+	
+    .mlanguages span.english{
+        background-position: 0 -40px;
+    }
+
+    .mshare span{
+        background: url(../images/socail-icons.png) left top no-repeat;
+        height: 27px;
+        width: 28px;
+        display: block;
+        font-size: 0;
+        cursor: pointer;
+        float: right;
+        margin-top: 12px;
+    }
+    .mshare span.facebook {
+        background-position: 0 0;
+    }
+    .mshare span.facebook:hover{
+        background-position: 0 -34px;    
+    }
+    .mshare span.pintrest {
+        background-position: -30px 0;
+    }
+    .mshare span.pintrest:hover {
+        background-position: -30px -34px;
+    }
+    .mshare span.google {
+        background-position: -63px 0;
+    }
+    .mshare span.google:hover {
+        background-position: -63px -34px;
+    }
+    .mshare span.twitter {
+        background-position: -94px 0;
+    }
+    .mshare span.twitter:hover {
+        background-position: -94px -34px;
+    }
+    .mshare span.linkedin {
+        background-position: -127px 0;
+    }
+    .mshare span.linkedin:hover {
+        background-position: -127px -34px;
+    }
+	
+	ul.slider li .item-content .icon-item {
+		background-size:60% !important;
+		height:33px !important;
+	}
+	
+	ul.slider li .item-content h3 {
+	  font-size: 12px !important;
+	  margin-bottom:0px;
+	  margin-top:5px;
+	}
+	
+	.alert {
+	  margin-bottom: 5px;
+	}
+	
+	.home_wapper .edu-slider-block .slider-preview {
+	  height:inherit;
+	}
+	
+	.home_wapper .description {
+		display:none !important;
+	}
+	
+	#slide-news {
+		display:none;
+	}
+	
+	ul.slider li .item-content .student {
+	  background-position: center -109px !important;
+	}
+	
+	ul.slider li .no-description {
+		padding-top:20px !important;
+	}
+	
+	ul.slider li .item-content .teacher {
+	  background-position: center -210px !important;
+	}
+	
+	ul.slider li .item-content .forum {
+	  background-position: center -587px !important;
+	}
+	
+	ul.slider li .item-content .bkel {
+	  background-position: center -55px !important;
+	}
+	
+	ul.slider li .item-content .timetable {
+	  background-position: center -528px !important;
+	}
+	
+	ul.slider li .item-content .subject {
+	  background-position: center -476px !important;
+	}
+	
+	ul.slider li .item-content .graduation {
+	  background-position: center -333px !important;
+	}
+	
+	ul.slider li .item-content .chart {
+	  background-position: center -383px !important;
+	}
+	
+	ul.slider li .item-content .register-project {
+	  background-position: center -275px !important;
+	}
+	
+	.item-content h3 {
+	  margin-top:5px;
+	}
+
+}
+
+@media screen and (min-width: 200px) and (max-width: 990px) {
+	.only-pic {
+		display:none;
+	}
+	
+	ul.slider li {
+		width:100px;
+	}
+	
+	.deskop_logo {
+		display:none !important;
+	}
+	
+	.medium_logo {
+		display:inherit;
+		padding-top:20px;
+	}
+	
+	.mobile_logo {
+		display:none;
+	}
+	
+	.img-box-items li {
+		display:block;
+	}
+	
+	.img-box-items .img-box-item a {
+		width:100%;
+	}
+	
+	.footer_wapper {
+	  height:inherit;
+	  line-height: 25px;
+	  padding-bottom:10px;
+	}
+	
+	.copyright {
+		text-align:center;
+	}
+	
+	.social-list-block {
+		margin-right:25%;
+	}
+	
+	.link_image {
+		display:none;
+	}
+
+}
+
+@media screen and (min-width: 200px) and (max-width: 790px) {
+	
+	.top_header .container {
+		padding-left:0px;
+		padding-right:0px;
+	}
+	
+	.navbar-header {
+		padding-left:10px;
+		padding-right:10px;
+	}
+
+	
+	.container {
+		padding-left:10px;
+		padding-right:10px;
+	}
+	
+	.xemthem {
+	  float: left;
+	  padding-left: 5px;
+	  padding-top: 15px;
+	  text-align: right;
+	}
+	
+	.link_image {
+		display:none;
+	}
+	
+	/*--------- top header ---------*/
+	
+	.deskop_logo {
+		display:none;
+	}
+	
+	.medium_logo {
+		display:inherit;
+		padding-top:20px;
+		display:none;
+	}
+	
+	.mobile_logo {
+		display:inherit;
+		padding-top:20px;
+	}
+	
+	.top_header {
+		height:81px;
+	}
+	
+	.mobile_logo {
+		padding-top:inherit;
+	}
+	
+	.search_wapper {
+		display:none;
+	}
+	
+	.menu_top {
+		background:#0795df;
+	}
+	
+	.navbar-nav {
+		margin:inherit;
+	}
+	
+	.name_website {
+		padding-top:1px;
+		font-size: 10pt;
+		/*
+		padding-left:1px;
+		padding-top:2px;
+		text-transform:uppercase;
+		font-size: 10pt;
+		color: #FFFFFF;
+		float: left;
+		position: relative;
+		font-family:'Roboto Condensed',arial;*/
+	}
+	a.active {
+	  background: none;
+	  border-left: 0px solid #1B80C4;
+	  border-right: 0px solid #1B80C4;
+	  border-top: 0px solid #1B80C4;
+	  color: #ffea00 !important;
+	  text-shadow:none;
+	}
+	
+	.navbar-nav > li > a {
+	  line-height: 20px;
+	  padding-bottom: 16px;
+	  padding-top: 16px;
+	}
+	
+	.menu_top li {
+		background:url("../images/bg-line-menu.png") repeat-x scroll center bottom rgba(0, 0, 0, 0);
+	}
+	
+	.mobile_menu {
+		display:inherit !important;
+	}
+	
+	.course_wp {
+		padding-right:0px;
+	}
+	
+	.student_wp {
+		padding-right:0px;
+	}
+	
+	.submenu {
+	  width: 500px;
+	}
+	
+	.date_wp {
+		text-align:left;
+	}
+}
+
+@media screen and (min-width: 200px) and (max-width: 710px) {
+	.item-content h3 {
+		margin-top:10px;
+	}
+	
+	.alert {
+		margin-bottom:0px;
+	}
+	
+	ul.slider li .item-content h3 {
+	  font-size: 12px !important;
+	}
+	.selectbox-item-block .item-slected{
+		 width: 250px;
+	}
+	.selectbox-item-block .item-list {
+		 width:249px;
+	}
+	.selectbox-item-block-auto .item-slected{
+		 width: 250px;
+	}
+	.selectbox-item-block-auto .item-list {
+		 width:249px;
+	}
+}
+
+@media screen and (min-width: 200px) and (max-width: 1200px) {
+	
+}

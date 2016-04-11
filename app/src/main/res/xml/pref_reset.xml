@@ -1,0 +1,24 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="TỪNG THÀNH PHẦN"/>
+
+    <Preference android:title="Đặt lại dữ liệu điểm"
+        android:summary="Khi thường xuyên nhận thông báo không thể tải dữ liệu."
+        android:key="reset_grades" />
+    <Preference android:title="Đặt lại dữ liệu thời khóa biểu"
+        android:summary="Khi thường xuyên nhận thông báo không thể tải dữ liệu hoặc thời khóa biểu không cập nhật."
+        android:key="reset_timetable"/>
+    <Preference android:title="Đặt lại dữ liệu lịch thi"
+        android:summary="Khi lịch thi không tự cập nhật hoặc thiếu chính xác."
+        android:key="reset_exams"/>
+    <Preference android:title="Đặt lại các nhắc nhở ngày thi"
+        android:summary="Xóa hết các thông báo bạn đã nhận và nhận lại từ đầu."
+        android:key="reset_notify"/>
+
+    <PreferenceCategory android:title="TẤT CẢ MỘT LÚC" />
+
+    <Preference android:title="Đặt lại tất cả"
+        android:summary="Trả AAOSync về trạng thái như lúc mới cài đặt."
+        android:key="reset_all"/>
+
+</PreferenceScreen>
