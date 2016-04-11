@@ -1,0 +1,314 @@
+﻿<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link type="text/css" rel="stylesheet" href="sample_files/css_002.css">
+<link href="sample_files/css.css" rel="stylesheet" type="text/css">
+<title>Phòng đào tạo - Trường Đại học Bách Khoa</title>
+<!-- Bootstrap -->
+<link href="sample_files/bootstrap.css" rel="stylesheet">
+<link href="sample_files/styles.css" rel="stylesheet">
+<link href="sample_files/mobile.css" rel="stylesheet">
+<link href="sample_files/slide.css" rel="stylesheet">
+<link href="sample_files/screen.css" rel="stylesheet" type="text/css" media="screen">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script type="text/javascript" src="sample_files/detection.js"></script><meta name="viewport">
+<script src="sample_files/jquery.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="sample_files/bootstrap.js"></script>
+</head>
+<body>
+<!-- Top header ---->
+<div class="top_header">
+<div class="container">
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+      	<img class="deskop_logo" src="sample_files/logo.png">
+        <img class="medium_logo" src="sample_files/m1logo.png">
+        <img class="mobile_logo" src="sample_files/mlogo.png">
+      </a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right menu_top">
+      <div class="search_wapper">
+      <div class="search_wapper_a">
+      	<input class="search_wapper_input" placeholder="Nhập tìm kiếm" name="" type="text">
+        <button class="button_search"></button>
+        <ul class="icon_lang">
+        	<li><a href="#"><img src="sample_files/icon_lag_vietnam.png"></a></li>       
+        </ul>
+      </div>
+      </div>
+      <div class="clear"></div>
+        <li class="menu_top_con"><a class="active" href="http://www.aao.hcmut.edu.vn/">Đào tạo</a></li>
+        <li class="menu_top_con"><a href="http://www.aao.hcmut.edu.vn/index.php?route=catalog/tuyensinh">Tuyển sinh</a></li>
+        <li class="menu_top_con"><a href="http://www.aao.hcmut.edu.vn/index.php?route=information/contact">Liên hệ</a></li>
+        <li class="menu_top_con mobile_menu">
+        	<div class="mlanguages">ngôn ngữ <span class="vietnamese"><a href="#"><img src="sample_files/icon_lag_vietnam.png"></a></span><span class="english"><a href="#"><img src="sample_files/icon_lag_english.png"></a></span></div>
+        </li>
+        <li class="menu_top_con mobile_menu">
+        	<div class="mshare">
+            chia sẻ
+                            <span class="facebook"></span>
+                            <span class="pintrest"></span>
+                            <span class="google"></span>
+                            <span class="twitter"></span>
+                            <span class="linkedin"></span>
+            </div>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</div>
+</div>
+        <div class="col-md-3">
+        	<div class="login-navi">&nbsp;
+            </div>
+        </div>
+<!-- end Top header ---->
+<!-- Breadcrumbs ---->
+<!-- End Breadcrumbs ---->
+<!-- Content ---->
+<div class="content_wapper padding">
+<div class="container">
+<div class="row">
+<div class="col-md-12 course_wp">	
+	<div class="sinhvien_wapper">
+	<div class="blocktin">
+    	<div class="blocktin_wp">	
+		   <div class="row">
+ <link href="sample_files/aao.htm" type="text/css" rel="stylesheet">
+<form name="formtracuu" action="xem_bd" onsubmit="return checkInput();" method="post">
+  <font color="#004080" face="Times New Roman, Times, serif" size="+3"><div align="center">BẢNG ĐIỂM SINH VIÊN
+	  </div>
+	 </font><table border="0" width="90%" align="center">
+  
+	<tbody><tr height="40" align="center"> 
+	 </tr>
+ 	<tr align="center">
+		<td><font color="#000066" face="Times New Roman, Times, serif" size="4">Học kỳ:</font>
+		<font size="3">
+			<select name="HOC_KY">
+			<option selected="selected" value="d.hk_nh is not NULL">Tất cả</option><option value="d.hk_nh=20142">HK2 (2014-2015)</option><option value="d.hk_nh=20141">HK1 (2014-2015)</option><option value="d.hk_nh=20133">HK3 (2013-2014)</option><option value="d.hk_nh=20132">HK2 (2013-2014)</option><option value="d.hk_nh=20131">HK1 (2013-2014)</option><option value="d.hk_nh=20123">HK3 (2012-2013)</option><option value="d.hk_nh=20122">HK2 (2012-2013)</option><option value="d.hk_nh=20121">HK1 (2012-2013)</option><option value="d.hk_nh=20113">HK3 (2011-2012)</option><option value="d.hk_nh=20112">HK2 (2011-2012)</option><option value="d.hk_nh=20111">HK1 (2011-2012)</option>			</select></font>									
+		&nbsp;		&nbsp;
+		<font color="#000066" face="Times New Roman, Times, serif" size="4">Nhập mã sinh viên:</font>
+
+			<input size="8" name="mssv" type="text">
+
+		<input class="button white" name="image" value="»Xem" alt="bảng điểm" type="submit" align="left"></td>		
+	</tr>
+		<tr><td><hr color="#0099FF" size="3px" width="40%" align="center"> </td></tr>
+		<tr><td colspan="1" align="center"><font color="#FF0000" face="Times New Roman, Times, serif" size="+2"> </font></td></tr>
+ </tbody></table>
+
+<div align="center">
+<font face="Times New Roman, Times, serif">Sinh viên :</font><font color="#3300CC" face="Times New Roman, Times, serif" size="+2"><div align="center">HOÀNG ĐÌNH THỊNH(41303880)</div></font><table border="0" width="90%" align="center">
+<tbody><tr></tr><tr></tr></tbody></table><font color="#003399" size="+1"><div align="center">
+							BẢNG ĐIỂM HK2 (2014-2015) 
+					  		</div></font><font color="#00339" size="-1">
+								Ngày cập nhật: 6/29/2015 5:48:10 PM 
+							</font><table><tbody><tr align="center"></tr> <tr align="left"></tr> <tr><td><table border="1" width="100%" align="left"><tbody><tr><td width="55" align="center"><font color="#CC3300" face="Arial, Helvetica, sans-serif" size="2"><strong>Mã MH</strong></font></td>										
+														<td width="250" align="center"><font color="#CC3300" face="Arial, Helvetica, sans-serif" size="2"><strong>Tên Môn Học</strong></font>
+														</td>										
+														<td width="70" align="center"><font color="#CC3300" face="Arial, Helvetica, sans-serif" size="2"><strong>Nhóm-Tổ</strong></font></td>										 
+														<td width="70" align="center"><font color="#CC3300" face="Arial, Helvetica, sans-serif" size="2"><strong>Số TC</strong></font></td>
+														<td width="70" align="center"><font color="#CC3300" face="Arial, Helvetica, sans-serif" size="2"><strong>Điểm kiểm tra</strong><!--
+														font--></font></td>
+														<td width="70" align="center"><font color="#CC3300" face="Arial, Helvetica, sans-serif" size="2"><strong>Điểm thi</strong></font><!--
+														td-->
+														</td><td width="70" align="center"><font color="#CC3300" face="Arial, Helvetica, sans-serif" size="2"><strong>Điểm TK</strong></font></td></tr>
+							            <tr><td align="center"><font color="#0080FF" face="Tahoma" size="2">003704</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">Tiếng pháp 4</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">P03-_</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">5</font></td>
+										  <td align="center"><font color="#0080FF" size="2" face="Tahoma">10.00</font></td>
+										  <td align="center"><font color="#0080FF" size="2" face="Tahoma">9.50</font></td>
+										  <td align="center"><font color="#0080FF" size="2" face="Tahoma">9.5</font></td></tr><tr><td align="center"><font color="#0080FF" face="Tahoma" size="2">006719</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">Phương pháp tính</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">P02-_</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">3</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">---</font></td>
+											<td align="center"><font color="#0080FF" face="Tahoma" size="2">6.50</font></td>
+											<td align="center"><font color="#0080FF" face="Tahoma" size="2">6.5</font></td></tr><tr><td align="center"><font color="#0080FF" face="Tahoma" size="2">007708</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">Vật lý sóng</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">P02-A</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">4</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">---</font></td>
+											  <td align="center"><font color="#0080FF" size="2" face="Tahoma">8.50</font></td>
+											  <td align="center"><font color="#0080FF" size="2" face="Tahoma">8.5</font></td></tr><tr><td align="center"><font color="#0080FF" face="Tahoma" size="2">007709</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">Nhiệt học&amp;cơ học chấtlưu</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">P02-A</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">3</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">---</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">9.50</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">9.5</font></td></tr><tr><td align="center"><font color="#0080FF" face="Tahoma" size="2">201707</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">Cơ học vật rắn &amp; sóng cơ</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">P02-_</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">3</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">---</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">9.50</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">9.5</font></td></tr><tr><td align="center"><font color="#0080FF" face="Tahoma" size="2">402705</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">Điện tử</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">P02-_</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">3</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">---</font></td>
+												<td align="center"><font color="#0080FF" face="Tahoma" size="2">6.00</font></td>
+												<td align="center"><font color="#0080FF" face="Tahoma" size="2">6.0</font></td></tr><tr><td align="center"><font color="#0080FF" face="Tahoma" size="2">404709</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">Điện - điện động học</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">P02-A</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">4</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">---</font></td>
+												  <td align="center"><font color="#0080FF" face="Tahoma" size="2">9.00</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">9.0</font></td></tr><tr><td height="18" align="center"><font color="#0080FF" face="Tahoma" size="2">701702</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">Quản trị học</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">P02-A</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">4</font></td>
+													<td align="center"><font color="#0080FF" size="2" face="Tahoma">10.00</font></td>
+													<td align="center"><font color="#0080FF" size="2" face="Tahoma">9.00</font></td>
+													<td align="center"><font color="#0080FF" size="2" face="Tahoma">10.0</font></td></tr></tbody></table></td></tr></tbody></table><font color="#003399" size="+1"><div align="center">
+							BẢNG ĐIỂM HK1 (2014-2015) 
+					  		</div></font><font color="#00339" size="-1">
+								Ngày cập nhật: 6/5/2015 4:15:36 PM 
+							</font><table><tbody><tr align="center"></tr> <tr align="left"></tr> <tr><td><table border="1" width="100%" align="left"><tbody><tr><td width="55" align="center"><font color="#CC3300" face="Arial, Helvetica, sans-serif" size="2"><strong>Mã MH</strong></font></td>										
+														<td width="250" align="center"><font color="#CC3300" face="Arial, Helvetica, sans-serif" size="2"><strong>Tên Môn Học</strong></font>
+														</td>										
+														<td width="70" align="center"><font color="#CC3300" face="Arial, Helvetica, sans-serif" size="2"><strong>Nhóm-Tổ</strong></font></td>										 
+														<td width="70" align="center"><font color="#CC3300" face="Arial, Helvetica, sans-serif" size="2"><strong>Số TC</strong></font></td>
+														<td width="70" align="center"><font color="#CC3300" face="Arial, Helvetica, sans-serif" size="2"><strong>Điểm kiểm tra</strong><!--
+														font--></font></td>
+														<td width="70" align="center"><font color="#CC3300" face="Arial, Helvetica, sans-serif" size="2"><strong>Điểm thi</strong></font><!--
+														td-->
+														</td><td width="70" align="center"><font color="#CC3300" face="Arial, Helvetica, sans-serif" size="2"><strong>Điểm TK</strong></font></td></tr><tr><td align="center"><font color="#0080FF" face="Tahoma" size="2">003004</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">Anh văn 4</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">P33-_</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">2</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">10.00</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">9.50</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">9.5</font></td></tr><tr><td align="center"><font color="#0080FF" face="Tahoma" size="2">003703</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">Tiếng pháp 3</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">P03-_</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">5</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">8.50</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">9.00</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">9.0</font></td></tr><tr><td align="center"><font color="#0080FF" face="Tahoma" size="2">005011</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">Giáo dục thể chất 3</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">P10-_</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">0</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">---</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">5.00</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">5.0</font></td></tr><tr><td align="center"><font color="#0080FF" face="Tahoma" size="2">006713</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">Toán 3</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">P02-_</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">7</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">---</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">7.00</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">7.0</font></td></tr><tr><td align="center"><font color="#0080FF" face="Tahoma" size="2">007705</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">Vật lý 2</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">P02-_</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">6</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">---</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">8.00</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">8.0</font></td></tr><tr><td align="center"><font color="#0080FF" face="Tahoma" size="2">601701</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">Hóa học</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">P02-A</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">6</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">---</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">7.50</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">7.5</font></td></tr><tr><td colspan="7"><table width="100%"><tbody><tr><td>Tổng số tín chỉ đăng ký học kỳ :26 </td></tr><tr><td width="60%">Tổng số tín chỉ tích lũy học kỳ:26</td><td width="40%">Tổng số tín chỉ :85</td></tr><tr><td width="60%">Điểm trung bình học kỳ:7.92</td><td width="40%">Điểm trung bình tích lũy:7.68</td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><font color="#003399" size="+1"><div align="center">
+							BẢNG ĐIỂM HK3 (2013-2014) 
+					  		</div></font><font color="#00339" size="-1">
+								Ngày cập nhật: 5/20/2015 4:11:58 PM 
+							</font><table><tbody><tr align="center"></tr> <tr align="left"></tr> <tr><td><table border="1" width="100%" align="left"><tbody><tr><td width="55" align="center"><font color="#CC3300" face="Arial, Helvetica, sans-serif" size="2"><strong>Mã MH</strong></font></td>										
+														<td width="250" align="center"><font color="#CC3300" face="Arial, Helvetica, sans-serif" size="2"><strong>Tên Môn Học</strong></font>
+														</td>										
+														<td width="70" align="center"><font color="#CC3300" face="Arial, Helvetica, sans-serif" size="2"><strong>Nhóm-Tổ</strong></font></td>										 
+														<td width="70" align="center"><font color="#CC3300" face="Arial, Helvetica, sans-serif" size="2"><strong>Số TC</strong></font></td>
+														<td width="70" align="center"><font color="#CC3300" face="Arial, Helvetica, sans-serif" size="2"><strong>Điểm kiểm tra</strong><!--
+														font--></font></td>
+														<td width="70" align="center"><font color="#CC3300" face="Arial, Helvetica, sans-serif" size="2"><strong>Điểm thi</strong></font><!--
+														td-->
+														</td><td width="70" align="center"><font color="#CC3300" face="Arial, Helvetica, sans-serif" size="2"><strong>Điểm TK</strong></font></td></tr><tr><td align="center"><font color="#0080FF" face="Tahoma" size="2">001001</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">Những NgLý cơbản CN M-Lê</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">DT02-B</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">5</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">9.50</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">7.50</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">8.5</font></td></tr><tr><td colspan="7"><table width="100%"><tbody><tr><td>Tổng số tín chỉ đăng ký học kỳ :5 </td></tr><tr><td width="60%">Tổng số tín chỉ tích lũy học kỳ:5</td><td width="40%">Tổng số tín chỉ :59</td></tr><tr><td width="60%">Điểm trung bình học kỳ:8.50</td><td width="40%">Điểm trung bình tích lũy:7.58</td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><font color="#003399" size="+1"><div align="center">
+							BẢNG ĐIỂM HK2 (2013-2014) 
+					  		</div></font><font color="#00339" size="-1">
+								Ngày cập nhật: 5/20/2015 4:17:27 PM 
+							</font><table><tbody><tr align="center"></tr> <tr align="left"></tr> <tr><td><table border="1" width="100%" align="left"><tbody><tr><td width="55" align="center"><font color="#CC3300" face="Arial, Helvetica, sans-serif" size="2"><strong>Mã MH</strong></font></td>										
+														<td width="250" align="center"><font color="#CC3300" face="Arial, Helvetica, sans-serif" size="2"><strong>Tên Môn Học</strong></font>
+														</td>										
+														<td width="70" align="center"><font color="#CC3300" face="Arial, Helvetica, sans-serif" size="2"><strong>Nhóm-Tổ</strong></font></td>										 
+														<td width="70" align="center"><font color="#CC3300" face="Arial, Helvetica, sans-serif" size="2"><strong>Số TC</strong></font></td>
+														<td width="70" align="center"><font color="#CC3300" face="Arial, Helvetica, sans-serif" size="2"><strong>Điểm kiểm tra</strong><!--
+														font--></font></td>
+														<td width="70" align="center"><font color="#CC3300" face="Arial, Helvetica, sans-serif" size="2"><strong>Điểm thi</strong></font><!--
+														td-->
+														</td><td width="70" align="center"><font color="#CC3300" face="Arial, Helvetica, sans-serif" size="2"><strong>Điểm TK</strong></font></td></tr><tr><td align="center"><font color="#0080FF" face="Tahoma" size="2">003003</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">Anh văn 3</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">P02-_</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">2</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">10.00</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">10.00</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">10.0</font></td></tr><tr><td align="center"><font color="#0080FF" face="Tahoma" size="2">003702</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">Tiếng pháp 2</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">P04-_</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">5</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">8.00</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">8.50</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">8.5</font></td></tr><tr><td align="center"><font color="#0080FF" face="Tahoma" size="2">005006</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">Giáo dục thể chất 2</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">P08-_</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">0</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">---</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">5.00</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">5.0</font></td></tr><tr><td align="center"><font color="#0080FF" face="Tahoma" size="2">006712</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">Toán 2 (lý thuyết)</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">P02-AA</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">7</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">7.00</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">4.50</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">6.0</font></td></tr><tr><td align="center"><font color="#0080FF" face="Tahoma" size="2">006718</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">Xác suất thống kê</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">P02-A</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">4</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">7.00</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">8.00</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">7.5</font></td></tr><tr><td align="center"><font color="#0080FF" face="Tahoma" size="2">007706</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">Vật lý 1</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">P02-A</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">6</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">8.00</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">6.50</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">7.5</font></td></tr><tr><td align="center"><font color="#0080FF" face="Tahoma" size="2">008001</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">Pháp luật Việt Nam đ/c</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">P03-A</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">2</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">7.00</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">6.50</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">6.5</font></td></tr><tr><td align="center"><font color="#0080FF" face="Tahoma" size="2">806702</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">Vẽ kỹ thuật</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">P02-A</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">2</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">---</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">8.00</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">8.0</font></td></tr><tr><td colspan="7"><table width="100%"><tbody><tr><td>Tổng số tín chỉ đăng ký học kỳ :28 </td></tr><tr><td width="60%">Tổng số tín chỉ tích lũy học kỳ:28</td><td width="40%">Tổng số tín chỉ :54</td></tr><tr><td width="60%">Điểm trung bình học kỳ:7.45</td><td width="40%">Điểm trung bình tích lũy:7.49</td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><font color="#003399" size="+1"><div align="center">
+							BẢNG ĐIỂM HK1 (2013-2014) 
+					  		</div></font><font color="#00339" size="-1">
+								Ngày cập nhật: 5/20/2015 4:19:12 PM 
+							</font><table><tbody><tr align="center"></tr> <tr align="left"></tr> <tr><td><table border="1" width="100%" align="left"><tbody><tr><td width="55" align="center"><font color="#CC3300" face="Arial, Helvetica, sans-serif" size="2"><strong>Mã MH</strong></font></td>										
+														<td width="250" align="center"><font color="#CC3300" face="Arial, Helvetica, sans-serif" size="2"><strong>Tên Môn Học</strong></font>
+														</td>										
+														<td width="70" align="center"><font color="#CC3300" face="Arial, Helvetica, sans-serif" size="2"><strong>Nhóm-Tổ</strong></font></td>										 
+														<td width="70" align="center"><font color="#CC3300" face="Arial, Helvetica, sans-serif" size="2"><strong>Số TC</strong></font></td>
+														<td width="70" align="center"><font color="#CC3300" face="Arial, Helvetica, sans-serif" size="2"><strong>Điểm kiểm tra</strong><!--
+														font--></font></td>
+														<td width="70" align="center"><font color="#CC3300" face="Arial, Helvetica, sans-serif" size="2"><strong>Điểm thi</strong></font><!--
+														td-->
+														</td><td width="70" align="center"><font color="#CC3300" face="Arial, Helvetica, sans-serif" size="2"><strong>Điểm TK</strong></font></td></tr><tr><td align="center"><font color="#0080FF" face="Tahoma" size="2">003001</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">Anh văn 1</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">MIEN-BL</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">2</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">---</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">10.00</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">10.00</font></td></tr><tr><td align="center"><font color="#0080FF" face="Tahoma" size="2">003002</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">Anh văn 2</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">MIEN-BL</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">2</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">---</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">10.00</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">10.00</font></td></tr><tr><td align="center"><font color="#0080FF" face="Tahoma" size="2">003701</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">Tiếng pháp 1</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">P03-_</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">5</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">9.50</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">8.50</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">8.9</font></td></tr><tr><td align="center"><font color="#0080FF" face="Tahoma" size="2">004009</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">Giáo dục quốc phòng</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">P98-_</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">0</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">---</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">DT</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">0.0</font></td></tr><tr><td align="center"><font color="#0080FF" face="Tahoma" size="2">005005</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">Giáo dục thể chất 1</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">P94-_</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">0</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">---</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">6.00</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">6.0</font></td></tr><tr><td align="center"><font color="#0080FF" face="Tahoma" size="2">006711</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">Toán 1 (lý thuyết)</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">P02-AA</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">8</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">5.00</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">4.00</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">4.5</font></td></tr><tr><td align="center"><font color="#0080FF" face="Tahoma" size="2">007704</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">Tin học đại cương</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">P02-A</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">5</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">9.00</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">7.50</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">8.3</font></td></tr><tr><td align="center"><font color="#0080FF" face="Tahoma" size="2">610001</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">Môi trường và con người</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">P18-A</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">2</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">8.50</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">8.00</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">8.1</font></td></tr><tr><td align="center"><font color="#0080FF" face="Tahoma" size="2">806703</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">Hình họa</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">P02-A</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">2</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">---</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">5.00</font></td><td align="center"><font color="#0080FF" face="Tahoma" size="2">5.0</font></td></tr><tr><td colspan="7"><table width="100%"><tbody><tr><td>Tổng số tín chỉ đăng ký học kỳ :22 </td></tr><tr><td width="60%">Tổng số tín chỉ tích lũy học kỳ:22</td><td width="40%">Tổng số tín chỉ :26</td></tr><tr><td width="60%">Điểm trung bình học kỳ:7.10</td><td width="40%">Điểm trung bình tích lũy:7.55</td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table>﻿<style type="text/css">
+<!--
+.chuy{
+	color:#00C;
+}
+.style1 {color: #0099FF}
+-->
+</style>
+
+
+<table cellpadding="0" cellspacing="0" align="center"></table>
+<p align="left">Lưu ý : Dữ liệu được cập nhật trên trang WEB này chỉ để xem, các bản in chính thức <strong class="chuy">do PĐT phát hành mới có ý nghĩa pháp lý</strong>. <br>
+Về mọi sai sót nếu có xin báo lại ngay cho <a href="mailto:hvlinh@hcmut.edu.vn">webmaster</a>, các ký hiệu bảng điểm: </p>
+<div align="center">
+		<table border="1" bordercolor="#0795df" cellpadding="0" cellspacing="0" width="80%" align="center">
+    <tbody><tr>
+      <th width="10%"><div align="center"><span class="style1">CH</span>
+      </div>
+      </th><td width="30%">Chưa có điểm thi 
+      (15)
+      </td><th class="style1" width="10%" align="center"><div align="center">KD
+      </div>
+      </th><td width="30%">Không đạt(20)
+    </td></tr><tr>
+      <th class="style1"><div align="center">CT
+      </div>
+      </th><td>Cấm thí(11)  
+      </td><th class="style1"><div align="center">MT
+      </div>
+      </th><td>Miễn thi(12) 
+    </td></tr><tr>
+      <th class="style1"><div align="center">DT
+      </div>
+      </th><td>Điểm đạt(21)
+      </td><th class="style1"><div align="center">VP</div>
+      </th><td>Vắng thi có phép 
+    </td></tr><tr>
+      <th class="style1"><div align="center">HT,IH
+      </div>
+      </th><td>Hoãn thi(14,22) 
+      </td><th class="style1"><div align="center">VT
+      </div>
+      </th><td>Vắng thi(13) 
+
+</td></tr></tbody></table></div><br>
+<p>&nbsp;</p>
+
+
+</div>
+</form>
+
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Footer ---->
+<div class="footer_wapper">
+<div class="container">
+<div class="row">
+	<div class="col-md-6">
+    	<div class="copyright">
+        	<span>Copyright©2014. Phòng Đào tạo - Đại học Bách Khoa TPHCM.</span>
+        </div>
+    </div>
+    <div class="col-md-6">
+    	<div class="social-list-block">
+                    <ul>
+                        <li><a class="facebook" href="#">facebook</a>
+                        </li>
+                        <li><a class="pintrest" href="#">pintrest</a>
+                        </li>
+                        <li><a class="google" href="#">google</a>
+                        </li>
+                        <li><a class="twitter" href="#">twitter</a>
+                        </li>
+                        <li><a class="linkedin" href="#">linkedin</a>
+                        </li>
+                    </ul>
+                </div>
+    	</div>
+</div>
+</div>
+</div>
+<!-- end footer ---->
+<!-- plugins javascript -->
+<script type="text/javascript" src="sample_files/jquery_002.js"></script>
+<script type="text/javascript" src="sample_files/utils.js"></script>
+<script type="text/javascript" src="sample_files/tracuu.js"></script>
+<!-- components javascript -->
+<script type="text/javascript" src="sample_files/kSelectBox.js"></script>
+<script type="text/javascript" src="sample_files/kSlide.js"></script>
+
+<!-- running javascript -->
+<script type="text/javascript" src="sample_files/controls.js"></script>
+<script type="text/javascript" src="sample_files/main.js"></script>
+
+<script>
+$("ul.control-slider").hide();
+$( ".edu-slider-block" ).mouseenter(function() {
+$("ul.control-slider").show();
+}).mouseleave(function() {
+  $("ul.control-slider").hide();
+});
+</script>
+<script language="javascript">
+	//document.frmLt.mssv.value=
+	document.formtracuu.mssv.focus();
+</script></body></html>

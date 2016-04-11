@@ -1,0 +1,39 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="THỜI KHÓA BIỂU"/>
+
+    <ListPreference
+        android:title="Cơ sở học"
+        android:summary="Cơ sở Tp. Hồ Chí Minh"
+        android:key="facility"
+        android:defaultValue="CS1"
+        android:entries="@array/pref_facility_titles"
+        android:entryValues="@array/pref_facility_values"/>
+
+    <PreferenceCategory android:title="LỊCH THI"/>
+
+    <SwitchPreference
+        android:title="Hiện lịch thi do người dùng đóng góp"
+        android:summary="Các lịch này có vạch màu xanh dương đứng trước. Lịch thi chính thức của PĐT có vạch màu xanh lá."
+        android:defaultValue="true"
+        android:key="show_contributed_exams"/>
+
+    <SwitchPreference
+        android:title="Mặc định hiển thị lịch thi đã chọn"
+        android:summary="Nếu bật, khi bạn bình chọn cho một lịch thi nào đó thì lịch thi đó sẽ hiển thị mặc định trên lịch thi của bạn. Áp dụng cho các lượt bình chọn kế tiếp."
+        android:key="display_upvoted_exam" android:defaultValue="false" />
+
+    <SwitchPreference
+        android:title="Mặc định hiển thị lịch thi đã tạo"
+        android:summary="Nếu bật, mọi lịch thi do bạn tạo sẽ tự động được hiển thị trên lịch thi của bạn. Áp dụng cho các lịch thi tiếp theo được tạo."
+        android:key="display_created_exam" android:defaultValue="true" />
+
+    <ListPreference
+        android:title="Báo trước lịch thi"
+        android:summary="3 ngày"
+        android:key="notify_me_before"
+        android:entries="@array/notify_me_before_titles"
+        android:entryValues="@array/notify_me_before_values"
+        android:defaultValue="3" />
+
+</PreferenceScreen>

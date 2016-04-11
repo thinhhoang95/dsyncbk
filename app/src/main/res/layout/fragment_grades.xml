@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hu.pe.thinhhoang.aaosync.GradesFragment"
+    android:orientation="vertical"
+    android:animateLayoutChanges="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:clickable="false"
+        android:id="@+id/gradesHeader"
+        android:background="#e0e0e0">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="MÔN HỌC &amp; SỐ TC"
+            android:id="@+id/textView38"
+            android:textColor="#8e8e8e"
+            android:layout_alignTop="@+id/textView40"
+            android:layout_marginLeft="16dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-light" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="T. KẾT"
+            android:id="@+id/textView39"
+            android:textColor="#8e8e8e"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="16dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-light" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="K. TRA"
+            android:id="@+id/textView40"
+            android:textColor="#8e8e8e"
+            android:layout_alignTop="@+id/textView39"
+            android:layout_toLeftOf="@+id/textView39"
+            android:layout_toStartOf="@+id/textView39"
+            android:layout_marginRight="8dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-light" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.25dp"
+            android:background="?android:attr/listDivider"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/swiper"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp">
+
+            <ListView
+                android:id="@+id/list_grades"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbarStyle="outsideOverlay">
+            </ListView>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</RelativeLayout>

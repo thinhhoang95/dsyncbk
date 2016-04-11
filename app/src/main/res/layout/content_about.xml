@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="hu.pe.thinhhoang.aaosync.AboutActivity"
+    tools:showIn="@layout/activity_about">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView">!-->
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+    <ImageView
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:id="@+id/imageView2"
+                android:src="@mipmap/ic_launcher"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageView2"
+        android:layout_above="@+id/linearLayout2"
+        android:gravity="center_vertical"
+        android:layout_alignRight="@+id/linearLayout2"
+        android:layout_alignEnd="@+id/linearLayout2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="AAOSync"
+            android:id="@+id/textView2"
+            android:textSize="32dp"
+            android:textIsSelectable="false"
+            android:layout_alignTop="@+id/imageView2"
+            android:layout_toRightOf="@+id/imageView2"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="8dp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-light" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Hệ điều hành Android™"
+            android:id="@+id/textView3"
+            android:textColor="@color/colorPrimary"
+            android:layout_below="@+id/textView2"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignStart="@+id/textView2"
+            android:layout_marginLeft="8dp"
+            android:fontFamily="sans-serif-light" />
+    </LinearLayout>
+
+    <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/imageView2"
+                android:layout_marginTop="24dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+        android:id="@+id/linearLayout2">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Phiên bản: 1.3 Ocean Swift (Developer's Edition)"
+                    android:id="@+id/textView7"
+                    android:layout_marginTop="4dp"
+                    android:textColor="@color/green"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Số phiên hiệu (Build): 2906.95"
+                    android:id="@+id/textView8"
+                    android:layout_marginTop="4dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/pink" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Ngày phát hành: 19/02/2016"
+                    android:id="@+id/textView9"
+                    android:layout_marginTop="4dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Sao Trắng: 7.0.2906.90"
+                    android:id="@+id/whitestarVersion"
+                    android:layout_marginTop="4dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Phụ trách bởi: Nhóm phát triển AAOSync."
+                    android:id="@+id/textView4"
+                    android:layout_marginTop="24dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Nhóm phát triển không chịu trách nhiệm về nội dung cung cấp bởi chương trình."
+                    android:id="@+id/textView5"
+                    android:layout_marginTop="4dp" />
+
+                <!--<TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Chúng tôi lưu trữ các thông tin cá nhân của bạn như MSSV, họ và tên, lớp, số lần truy cập để tối ưu hóa cho hoạt động của Sao Trắng. Thông tin cá nhân của bạn được giữ bí mật tuyệt đối."
+                    android:id="@+id/textView6"
+                    android:layout_marginTop="4dp" />!-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Mọi ý kiến đóng góp vui lòng gửi về hộp thư aaosync@gmail.com. Ngoài ra, bạn cũng có thể báo cáo về những vấn đề gặp phải bằng biểu tượng lá thư. Hãy thích AAOSync để luôn được cập nhật."
+                    android:id="@+id/textView10"
+                    android:layout_marginTop="4dp" />
+
+                <ImageButton
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:id="@+id/facebookButton"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:src="@drawable/facebook"
+                    android:scaleType="fitXY"
+                    android:background="@color/transparent"
+                    android:layout_marginTop="24dp" />
+
+            </LinearLayout>
+
+</RelativeLayout>

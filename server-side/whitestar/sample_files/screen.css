@@ -1,0 +1,277 @@
+@media screen and (min-width: 320px) and (max-width: 713px){
+	.control-slider {
+		display:none !important;
+	}
+    .desktop{display: none;}
+    .mobile{display: block;}
+    .main-page{
+        background: url(../images/bg-mheader.png) left top repeat-x;
+    }
+    header{
+        width: 100%;
+        height: auto;
+    }
+    .logo-block{
+        height:80px;
+        width: auto;
+        padding-left: 5px;
+    }
+    .m-menu-control{
+        display: block;
+        float: right;
+        padding: 25px 15px 0 0;
+    }
+    .m-menu-control a{
+        display: block;
+        width:33px;
+        height:27px;
+        background: url(../images/mmenu-icon.png) left top no-repeat;
+        font-size: 0;
+    }
+    .search-languages-block{
+        display: none;
+    }
+    .main-menu-block{
+        clear: both;
+        background-color: #0795df;
+        border-top: 1px solid #fff;
+        float: left;
+        width: 100%;
+        display: none;
+    }
+    .main-menu-block ul{
+        padding-top: 0;
+        width: 100%;
+    }
+    .main-menu-block li{
+        clear: both;
+        display: block;
+        width: 100%;
+        background: url(../images/bg-line-menu.png) left top repeat-x;
+    }
+    .main-menu-block li:first-child{
+        background: transparent;
+    }
+    .main-menu-block li a{
+        color: #fff;
+        padding:10px 20px;
+    }
+    .main-menu-block li a.active{
+        background-color: transparent;; border: 0;
+        color: #fff;
+        text-shadow:1px 1px #0695df;
+    }
+    .mshare, .mlanguages {
+	  color: #FFFFFF;
+	  font-size: 18px;
+	  height: 50px;
+	  line-height: 50px;
+	  padding: 0 15px;
+	  text-transform: uppercase;
+	}
+
+    .mlanguages span {
+	  cursor: pointer;
+	  display: block;
+	  float: right;
+	  font-size: 0;
+	  height: 20px;
+	  width: 24px;
+	}
+	
+    .mlanguages span.vietnamese{
+        background-position: 0 0;
+        margin-left: 10px;
+    }
+	
+    .mlanguages span.english{
+        background-position: 0 -40px;
+    }
+
+    .mshare span{
+        background: url(../images/socail-icons.png) left top no-repeat;
+        height: 27px;
+        width: 28px;
+        display: block;
+        font-size: 0;
+        cursor: pointer;
+        float: right;
+        margin-top: 12px;
+    }
+    .mshare span.facebook {
+        background-position: 0 0;
+    }
+    .mshare span.facebook:hover{
+        background-position: 0 -34px;    
+    }
+    .mshare span.pintrest {
+        background-position: -30px 0;
+    }
+    .mshare span.pintrest:hover {
+        background-position: -30px -34px;
+    }
+    .mshare span.google {
+        background-position: -63px 0;
+    }
+    .mshare span.google:hover {
+        background-position: -63px -34px;
+    }
+    .mshare span.twitter {
+        background-position: -94px 0;
+    }
+    .mshare span.twitter:hover {
+        background-position: -94px -34px;
+    }
+    .mshare span.linkedin {
+        background-position: -127px 0;
+    }
+    .mshare span.linkedin:hover {
+        background-position: -127px -34px;
+    }
+    .main-menu-block li .search-block{
+        float:left;
+        height: 37px;
+        text-align: center;
+        padding: 17px 20px 10px 20px;
+        width: 320px;
+    }
+     .main-menu-block li .search-block input{
+        width: 225px;
+     }
+    section{
+        width: 100%;
+        padding-bottom: 0;
+        min-width: 320px;
+    }
+    .edu-page{
+        padding:20px 4.375%;
+        min-width: 280px;
+        width: auto;
+    }
+    section .header-title{
+        padding-bottom: 20px;
+    }
+    section .decs-block{
+        padding-bottom: 20px;
+    }
+    section .decs-block p{
+        line-height:20px;
+    }
+    ul.slider li{
+        overflow: hidden;
+        margin-right: 0;
+    }
+    ul.slider li.item-break{
+        margin-right: 143px;
+    }
+    ul.slider li.small-item{
+        width: 378px;
+    }
+    ul.slider li.small-item img{
+        width: 100%;
+    }
+    ul.control-slider{
+        display: none;
+    }
+    ul.slider li .item-content .description{
+        background-position:0 2px;
+    }
+    .button-controls {
+        margin: auto;
+    }
+        .button-controls li {
+            float: left;
+            margin: auto !important;
+            padding: 5px !important;
+            width: auto;
+        }
+            .button-controls li a {
+                background: url("../images/strl-slide-dot.png") no-repeat scroll left -30px rgba(0, 0, 0, 0);
+                display: block;
+                height: 15px;
+                width: 15px;
+            }
+            .button-controls li a:hover, 
+            .button-controls li.active a {
+                background-position: 0 0;
+            }
+    ul.slider li{
+        position: relative;
+    }
+    ul.slider li .item-content .icon-item{
+        background: url(../images/micons.png) center top no-repeat;
+        height:35px;
+    }
+    ul.slider li .item-content h3{
+        padding:0px;
+    }
+    ul.slider li .item-content,
+    ul.slider li .no-description{
+        padding-top: 0;
+    }
+    ul.slider li .item-content 
+    {
+        margin: auto;
+        position: absolute;
+        left: 0; top: 0; right: 0; bottom: 0;
+        height: 55px;
+    }
+    ul.slider li .item-content .description{
+        display: none;
+    }
+    ul.slider li .item-content h3{
+        font-size:15px;
+    }
+
+    ul.slider li .item-content .student{
+        background-position: center -102px;
+    }
+    ul.slider li .item-content .bkel{
+       background-position: center -102px;  
+    }
+    ul.slider li .item-content .timetable{
+        background-position: center -102px;
+    }
+    ul.slider li .item-content .graduation{
+       background-position: center -102px;  
+    }
+    ul.slider li .item-content .chart{
+        background-position: center -102px;
+    }
+    ul.slider li .item-content .teacher{
+       background-position: center -102px;  
+    }
+    ul.slider li .item-content .forum{
+       background-position: center -102px;  
+    }
+    ul.slider li .item-content .document{
+        background-position: center -102px;
+    }
+    ul.slider li .item-content .register-project{
+       background-position: center -102px;  
+    }
+    ul.slider li .item-content .subject{
+        background-position: center -102px;
+    }
+
+    footer{
+        width: 100%;
+        text-align: right;
+    }
+    footer .copyright-block{
+        float: right;
+        padding: 0 20px 10px 0;
+    }
+    footer .copyright-block span{
+        display: none;
+    }
+    footer .social-list-block{
+        display: none;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 417px){
+	
+}
+@media screen and (min-width: 1024px) and (max-width: 1126px){
+    
+}

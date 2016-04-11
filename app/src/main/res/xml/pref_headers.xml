@@ -1,0 +1,30 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+        android:fragment="hu.pe.thinhhoang.aaosync.SettingsActivity$GeneralPreferenceFragment"
+        android:icon="@drawable/ic_assignment_black_24dp"
+        android:title="Tài khoản &amp; đồng bộ dữ liệu"
+        android:summary="Mã số sinh viên, chu kỳ đồng bộ" />
+
+    <header
+        android:title="Thời khóa biểu &amp; lịch thi"
+        android:icon="@drawable/ic_event_black_24dp"
+        android:summary="Giờ học theo cơ sở, hiện lịch thi đóng góp"
+        android:fragment="hu.pe.thinhhoang.aaosync.SettingsActivity$TimeTablePreferenceFragment"/>
+
+    <header
+        android:title="Đặt lại dữ liệu"
+        android:icon="@drawable/ic_settings_backup_restore_black_24dp"
+        android:summary="Khi AAOSync vận hành không ổn"
+        android:fragment="hu.pe.thinhhoang.aaosync.SettingsActivity$ResetFragment"
+        />
+
+    <!--<header
+        android:title="Thiết lập lịch thi"
+        android:icon="@drawable/ic_menu_manage"
+        android:summary="Liên kết với lịch Google trong máy"></header>!-->
+
+
+</preference-headers>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="hu.pe.thinhhoang.aaosync.UpvoteActivity"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        app:columnCount="5"
+        app:rowCount="3">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="NHIỆT ĐỘNG HỌC THỐNG KÊ"
+            android:id="@+id/TenMH"
+            app:layout_row="0"
+            app:layout_column="0"
+            app:layout_columnSpan="3"
+            android:layout_marginTop="32dp"
+            android:gravity="center"
+            android:textColor="@color/brightText"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Mã môn học"
+            android:textColor="@color/brightText"
+            android:id="@+id/textView17"
+            app:layout_row="1"
+            app:layout_column="0"
+            app:layout_gravity="center_horizontal"
+            app:layout_columnWeight="1"
+            android:paddingTop="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="701703"
+            app:layout_columnWeight="1"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/brightText"
+            android:id="@+id/MaMH"
+            app:layout_row="2"
+            app:layout_column="0"
+            app:layout_gravity="center_horizontal"
+            android:layout_marginBottom="32dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Thể loại"
+            android:textColor="@color/brightText"
+            android:id="@+id/textView18"
+            app:layout_row="1"
+            app:layout_column="1"
+            app:layout_gravity="center_horizontal"
+            app:layout_columnWeight="1"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="GK"
+            app:layout_columnWeight="1"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/brightText"
+            android:id="@+id/Loai"
+            app:layout_row="2"
+            app:layout_column="1"
+            app:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Nhóm"
+            android:textColor="@color/brightText"
+            android:id="@+id/textView19"
+            app:layout_row="1"
+            app:layout_column="2"
+            app:layout_gravity="center_horizontal"
+            app:layout_columnWeight="1"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="P01-_"
+            app:layout_columnWeight="1"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/brightText"
+            android:id="@+id/Nhom"
+            app:layout_row="2"
+            app:layout_column="2"
+            app:layout_gravity="center_horizontal"/>
+    </android.support.v7.widget.GridLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/listAvailExams">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progress"
+            android:layout_gravity="center"
+            android:visibility="invisible" />
+    </FrameLayout>
+
+</LinearLayout>

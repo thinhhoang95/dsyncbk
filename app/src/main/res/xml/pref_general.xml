@@ -1,0 +1,39 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="TÀI KHOẢN"/>
+
+    <EditTextPreference
+        android:defaultValue=""
+        android:key="MSSV"
+        android:summary="Nhập mã số sinh viên của bạn"
+        android:title="Tài khoản HCMUT"></EditTextPreference>
+
+    <PreferenceCategory android:title="DỊCH VỤ ĐỒNG BỘ"/>
+
+    <SwitchPreference
+    android:defaultValue="true"
+    android:key="enable_service"
+    android:summary="Cho phép ứng dụng chạy nền ngay cả khi chương trình không hoạt động."
+    android:title="Dịch vụ đồng bộ AAOSync" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="sync_at_startup"
+        android:summary="Thực hiện đồng bộ ngay khi chương trình khởi động."
+        android:title="Đồng bộ ngay khi khởi động" />
+
+    <ListPreference
+        android:title="Chu kỳ đồng bộ"
+        android:key="sync_duration"
+        android:defaultValue="30"
+        android:entries="@array/pref_example_list_titles"
+        android:entryValues="@array/pref_example_list_values">
+    </ListPreference>
+
+    <EditTextPreference
+        android:key="lastSync"
+        android:title="Lần cuối cùng đồng bộ"
+        android:enabled="false"
+        ></EditTextPreference>
+
+</PreferenceScreen>

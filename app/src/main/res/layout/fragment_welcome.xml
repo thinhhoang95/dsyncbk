@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeFragment"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:id="@+id/picture"
+            android:layout_gravity="center"
+            android:src="@drawable/welcome_gift"
+            android:scaleType="fitXY" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.32"
+        android:paddingTop="48dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TitleTextView"
+            style="@style/Base.TextAppearance.AppCompat.Headline"
+            android:text="Title text"
+            android:textAlignment="center"
+            android:textColor="@color/brightText" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/DescriptionTextView"
+            style="@style/Base.TextAppearance.AppCompat.Medium"
+            android:text="A generic description"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:paddingLeft="28dp"
+            android:paddingRight="28dp"
+            android:lineSpacingExtra="4dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/brightText" />
+
+    </LinearLayout>
+    
+</LinearLayout>

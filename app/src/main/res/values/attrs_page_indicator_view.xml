@@ -1,0 +1,8 @@
+<resources>
+    <declare-styleable name="PageIndicatorView">
+        <attr name="totalPages" format="integer"></attr>
+        <attr name="currentPage" format="integer"></attr>
+        <attr name="circleSize" format="float"></attr>
+        <attr name="circleDist" format="float"></attr>
+    </declare-styleable>
+</resources>

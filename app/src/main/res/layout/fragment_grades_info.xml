@@ -1,0 +1,356 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GradesInfoFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#e0e0e0">
+
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/card_background"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/hcmut" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="THỐNG KÊ TIẾN ĐỘ HỌC"
+                        android:layout_alignParentTop="true"
+                        android:textAppearance="@android:style/TextAppearance.Small"
+                        android:textColor="@color/brightText"
+                        android:paddingLeft="16dp"
+                        android:paddingBottom="16dp"
+                        android:paddingTop="16dp"
+                        android:textStyle="bold"
+                        android:background="@color/colorPrimary" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="24dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tổng số TC tích lũy"
+                        android:textAppearance="@android:style/TextAppearance"
+                        android:layout_marginTop="24dp"
+                        android:layout_marginLeft="16dp"
+                        android:id="@+id/textView11"
+                        android:fontFamily="sans-serif-light" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="-"
+                        android:id="@+id/tongSoTC"
+                        android:layout_alignBottom="@+id/textView11"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:fontFamily="sans-serif-light"
+                        android:layout_marginRight="16dp"
+                        android:textColor="@color/colorPrimary" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Điểm TB tích lũy"
+                        android:textAppearance="@android:style/TextAppearance"
+                        android:id="@+id/textView14"
+                        android:layout_below="@+id/textView11"
+                        android:layout_alignLeft="@+id/textView11"
+                        android:layout_alignStart="@+id/textView11"
+                        android:layout_marginTop="24dp"
+                        android:focusableInTouchMode="false"
+                        android:fontFamily="sans-serif-light" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="-"
+                        android:id="@+id/tbTichLuy"
+                        android:fontFamily="sans-serif-light"
+                        android:layout_alignBottom="@+id/textView14"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginRight="16dp"
+                        android:textColor="@color/colorPrimary" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/card_background"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="16dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="24dp" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Chú giải điểm"
+                            android:textAppearance="@android:style/TextAppearance.Large"
+                            android:layout_marginTop="24dp"
+                            android:layout_marginLeft="16dp"
+                            android:id="@+id/textView20"
+                            android:fontFamily="sans-serif-light"
+                            android:textColor="@color/colorPrimary" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Chưa có điểm thi"
+                            android:textAppearance="@android:style/TextAppearance"
+                            android:id="@+id/textView23"
+                            android:layout_below="@+id/textView20"
+                            android:layout_alignLeft="@+id/textView20"
+                            android:layout_alignStart="@+id/textView20"
+                            android:layout_marginTop="24dp"
+                            android:focusableInTouchMode="false"
+                            android:fontFamily="sans-serif-light" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="CH"
+                            android:id="@+id/textView24"
+                            android:fontFamily="sans-serif-light"
+                            android:layout_alignBottom="@+id/textView23"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginRight="16dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cấm thi"
+                            android:textAppearance="@android:style/TextAppearance"
+                            android:id="@+id/textView22"
+                            android:focusableInTouchMode="false"
+                            android:fontFamily="sans-serif-light"
+                            android:layout_below="@+id/textView23"
+                            android:layout_alignLeft="@+id/textView23"
+                            android:layout_alignStart="@+id/textView23"
+                            android:layout_marginTop="24dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="11, CT"
+                            android:id="@+id/textView25"
+                            android:fontFamily="sans-serif-light"
+                            android:layout_alignParentBottom="false"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginRight="16dp"
+                            android:layout_alignBottom="@+id/textView22" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Đạt"
+                            android:textAppearance="@android:style/TextAppearance"
+                            android:id="@+id/textView26"
+                            android:focusableInTouchMode="false"
+                            android:fontFamily="sans-serif-light"
+                            android:layout_below="@+id/textView22"
+                            android:layout_alignLeft="@+id/textView23"
+                            android:layout_alignStart="@+id/textView23"
+                            android:layout_marginTop="24dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="21, DT"
+                            android:id="@+id/textView27"
+                            android:fontFamily="sans-serif-light"
+                            android:layout_alignParentBottom="false"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginRight="16dp"
+                            android:layout_alignBottom="@+id/textView26" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Hoãn thi"
+                            android:textAppearance="@android:style/TextAppearance"
+                            android:id="@+id/textView28"
+                            android:focusableInTouchMode="false"
+                            android:fontFamily="sans-serif-light"
+                            android:layout_below="@+id/textView26"
+                            android:layout_alignLeft="@+id/textView23"
+                            android:layout_alignStart="@+id/textView23"
+                            android:layout_marginTop="24dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="14, 22, HT, IH"
+                            android:id="@+id/textView29"
+                            android:fontFamily="sans-serif-light"
+                            android:layout_alignParentBottom="false"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginRight="16dp"
+                            android:layout_alignBottom="@+id/textView28" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Không đạt"
+                            android:textAppearance="@android:style/TextAppearance"
+                            android:id="@+id/textView30"
+                            android:focusableInTouchMode="false"
+                            android:fontFamily="sans-serif-light"
+                            android:layout_below="@+id/textView28"
+                            android:layout_alignLeft="@+id/textView23"
+                            android:layout_alignStart="@+id/textView23"
+                            android:layout_marginTop="24dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="20, KD"
+                            android:id="@+id/textView31"
+                            android:fontFamily="sans-serif-light"
+                            android:layout_alignParentBottom="false"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginRight="16dp"
+                            android:layout_alignBottom="@+id/textView30" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Miễn thi"
+                            android:textAppearance="@android:style/TextAppearance"
+                            android:id="@+id/textView32"
+                            android:focusableInTouchMode="false"
+                            android:fontFamily="sans-serif-light"
+                            android:layout_below="@+id/textView30"
+                            android:layout_alignLeft="@+id/textView23"
+                            android:layout_alignStart="@+id/textView23"
+                            android:layout_marginTop="24dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="12, MT"
+                            android:id="@+id/textView33"
+                            android:fontFamily="sans-serif-light"
+                            android:layout_alignParentBottom="false"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginRight="16dp"
+                            android:layout_alignBottom="@+id/textView32" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Vắng thi CP"
+                            android:textAppearance="@android:style/TextAppearance"
+                            android:id="@+id/textView34"
+                            android:focusableInTouchMode="false"
+                            android:fontFamily="sans-serif-light"
+                            android:layout_below="@+id/textView32"
+                            android:layout_alignLeft="@+id/textView23"
+                            android:layout_alignStart="@+id/textView23"
+                            android:layout_marginTop="24dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="VP"
+                            android:id="@+id/textView35"
+                            android:fontFamily="sans-serif-light"
+                            android:layout_alignParentBottom="false"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginRight="16dp"
+                            android:layout_alignBottom="@+id/textView34" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Vắng thi KP"
+                            android:textAppearance="@android:style/TextAppearance"
+                            android:id="@+id/textView36"
+                            android:focusableInTouchMode="false"
+                            android:fontFamily="sans-serif-light"
+                            android:layout_below="@+id/textView34"
+                            android:layout_alignLeft="@+id/textView23"
+                            android:layout_alignStart="@+id/textView23"
+                            android:layout_marginTop="24dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="VT"
+                            android:id="@+id/textView37"
+                            android:fontFamily="sans-serif-light"
+                            android:layout_alignParentBottom="false"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginRight="16dp"
+                            android:layout_alignBottom="@+id/textView36" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

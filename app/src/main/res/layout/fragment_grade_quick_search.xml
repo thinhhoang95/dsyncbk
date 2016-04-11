@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hu.pe.thinhhoang.aaosync.GradeQuickSearchFragment"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:clickable="false"
+        android:id="@+id/mssvBackground"
+        android:background="@color/nonInvasiveGray"
+        >
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:textAppearance="?android:attr/textAppearanceSmall"-->
+            <!--android:text="MÔN HỌC &amp; SỐ TC"-->
+            <!--android:id="@+id/textView38"-->
+
+            <!--android:layout_marginLeft="16dp"-->
+            <!--/>-->
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            android:textColor="#8e8e8e"
+            android:hint="NHẬP MSSV CẦN XEM NHANH"
+            android:layout_marginBottom="8dp"
+            android:id="@+id/mssvField"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-light"
+            android:background="@color/transparent"
+            android:textColorHint="#8e8e8e"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            android:textAppearance="@android:style/TextAppearance.Small" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.25dp"
+            android:background="?android:attr/listDivider"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:visibility="gone" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/quickMSSVList"
+        android:scrollbars="vertical"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:layout_marginTop="0dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
