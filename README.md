@@ -8,3 +8,5 @@ Vui lòng xem file NOTES.txt để biết cách cài đặt và triển khai ứ
 Hoàng Đình Thịnh, Phan Thành Lợi, Nguyễn Tường Anh, Lê Quang Dũng - ĐH Bách Khoa Tp.HCM.
 
 Trương Đặng Hải Yến - Charles University in Prague, Czech Republic.
+
+Liên hệ: hoangdinhthinh@live.com nếu bạn muốn biết thêm thông tin về mã nguồn.
