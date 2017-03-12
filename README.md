@@ -5,8 +5,10 @@ Vui lòng xem file NOTES.txt để biết cách cài đặt và triển khai ứ
 
 ### Tác giả
 
-Hoàng Đình Thịnh, Phan Thành Lợi, Nguyễn Tường Anh, Lê Quang Dũng - ĐH Bách Khoa Tp.HCM.
+Hoàng Đình Thịnh (creator), Phan Thành Lợi, Nguyễn Tường Anh, Lê Quang Dũng - ĐH Bách Khoa Tp.HCM.
 
-Trương Đặng Hải Yến - Charles University in Prague, Czech Republic.
+Trương Đặng Hải Yến (UX design) - Charles University in Prague, Czech Republic.
 
 Liên hệ: hoangdinhthinh@live.com nếu bạn muốn biết thêm thông tin về mã nguồn.
+
+![alt tag](https://image.ibb.co/eSTyLa/imul.png)
